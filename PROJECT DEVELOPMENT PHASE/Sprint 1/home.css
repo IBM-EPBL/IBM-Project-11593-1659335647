@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    font-size: 20px;
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px;
+    background-color: #000000;
+    display: flex;
+    height: 70px;
+    color: white;
+    font-size:large;
+    border-radius: 0%;
+    margin-bottom: 0px;
+}
+
+.navbar-brand
+{
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+
+.circle{
+    position: fixed;
+    border-radius: 50%;
+    background: #2c62f5;
+    animation: ripple 15s infinite;
+    box-shadow: 0px px 1px 0px #508fb9;
+  }
+  
+  .small{
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    bottom: -50px;
+  }
+  
+  .medium{
+    background:#2c62f5;
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+  }
+  
+  .large{
+    width: 300px;
+    height: 300px;
+    right: -150px;
+    bottom: -150px;
+  }
+  
+  .xlarge{
+      background: #2c62f5;
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    bottom: -330px;
+  }
+  
+  .xxlarge{
+    width: 250px;
+    height: 270px;
+    left: -170px;
+    bottom: -10px;
+  }
+  
+  .shade1{
+    opacity: 0.2;
+  }
+  .shade2{
+    opacity: 0.5;
+  }
+  
+  .shade3{
+    opacity: 0.7;
+  }
+  
+  .shade4{
+    opacity: 0.8;
+  }
+  
+  .shade5{
+    opacity: 0.9;
+  }
+
+  .btnn{
+    font-size: 80vh;
+  }
+
+li
+{
+    overflow-x: visible;
+}
+
+
+.navmenu
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    padding: 15px 50px 0px 0px;
+    overflow: visible;
+}
+
+.navmenu li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+.navmenu li a:hover
+{
+    color: #8AB4F8;
+}
+
+.navbar-brand
+{
+    color: white;
+    padding: 15px 60px;
+}
+
+.row
+{
+
+    padding-top: 4px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.second
+{
+    border-radius: 0px;
+    overflow-x: visible;
+    box-shadow: 2px 7px 8px 6px rgba(0,0,0,0);
+    width: 400px;
+    color: #000000;
+}
+
+.jus
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    color:black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form-control
+{
+    justify-content: center;
+}
+
+.card
+{
+    color: black;
+    padding: 10px;  
+    box-shadow: -8px 13px 12px -5px rgba(0,0,0,0.63);
+}
+
+
+
+
+
+
