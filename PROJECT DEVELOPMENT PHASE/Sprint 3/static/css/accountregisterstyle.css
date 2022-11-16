@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    padding: 40px;
+}
+
+.circle{
+    position: fixed;
+    border-radius: 50%;
+    background: #2c62f5;
+    animation: ripple 15s infinite;
+    box-shadow: 0px px 1px 0px #508fb9;
+  }
+  
+  .small{
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    bottom: -50px;
+  }
+  
+  .medium{
+    background:#2c62f5;
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+  }
+  
+  .large{
+    width: 300px;
+    height: 300px;
+    right: -150px;
+    bottom: -150px;
+  }
+  
+  .xlarge{
+      background: #2c62f5;
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    bottom: -330px;
+  }
+  
+  .xxlarge{
+    width: 250px;
+    height: 270px;
+    left: -170px;
+    bottom: -10px;
+  }
+  
+  .shade1{
+    opacity: 0.2;
+  }
+  .shade2{
+    opacity: 0.5;
+  }
+  
+  .shade3{
+    opacity: 0.7;
+  }
+  
+  .shade4{
+    opacity: 0.8;
+  }
+  
+  .shade5{
+    opacity: 0.9;
+  }
+
+
+button
+{
+    align-items: center;
+}
+.label{
+    color:black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.jus
+{
+    text-align: left;
+}
+
+.form-control
+{
+    justify-content: center;
+}
+
+.right
+{
+    padding-top: 20px;
+}
+
+.card
+{
+    border-radius: 0%;
+    background: white;
+    color: black;
+    box-shadow: -8px 13px 12px -5px rgba(0,0,0,0.63);  
+    align-items: center;
+    height: 600px;
+}
