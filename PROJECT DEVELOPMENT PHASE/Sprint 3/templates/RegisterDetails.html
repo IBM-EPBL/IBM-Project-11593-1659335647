@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <title>Registration</title>
+    <link rel="stylesheet" href="../static/css/registerdetailsstyle.css">
+
+</head>
+<body>
+    
+      <div class="ripple-background"></div>
+      <div class="circle xxlarge shade1"></div>
+      <div class="circle xlarge shade2"></div>
+      <div class="circle large shade3"></div>
+      <div class="circle mediun shade4"></div>
+      <div class="circle small shade5"></div>
+    <div class="row w-100">
+
+        <div class="left col-lg-4">
+            <img src="../static/undraw_learning_sketching_nd4f.png" height="400" width="400">
+        </div>
+
+        <div class="right col-lg-8">
+            <div class="card p-3" style="height: 700px;">
+                
+                <h1 class="title text-center">Check your credibility</h1>
+                <div class="card-body w-100">
+                    
+                    <div class="row">
+                            <form action="/predict" method="post">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <div style=" width: 40%;">
+                                    <div class="col-lg-6" style=" width: 100%;">
+                                        <div class="form-group">
+                                            <label for="name">Name:</label><br>
+                                            <input type="text"  class="form-control" id="name" name="name" placeholder="name" required>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">Gender:</label><br>
+                                            <!-- <input type="text" class="form-control" id="gender" name="gender" placeholder="gender"  required> -->
+                                            <select class="form-select " id="gender" name="gender">
+                                                <option selected>Select</option>
+                                                <option value="1">Male</option>
+                                                <option value="2">Female</option>
+                                            </select>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">Marital_Status:</label><br>
+                                            <!-- <input type="text" class="form-control" id="marital_status" name="marital_status" placeholder="marital_status" required> -->
+                                            <select class="form-select form-select" id="marital_status" name="marital_status">
+                                                <option selected>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="2">No</option>
+                                            </select>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">Dependents:</label><br>
+                                            <input type="number" class="form-control" id="dependents" name="dependents" placeholder="dependents" required>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">Education:</label><br>
+                                            <!-- <input type="text" class="form-control" id="education" name="education" placeholder="education" required> -->
+                                            <select class="form-select " id="education" name="education">
+                                                <option selected>Select</option>
+                                                <option value="1">Graduate</option>
+                                                <option value="2">Not Graduate</option>
+                                            </select>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">Self_Employed:</label><br>
+                                            <!-- <input type="text" class="form-control" id="Self_Employed" name="Self_Employed" placeholder="Self_Employed" required> -->
+                                            <select class="form-select " id="Self_Employed" name="Self_Employed">
+                                                <option selected>Select</option>
+                                                <option value="1">Yes</option>
+                                                <option value="2">No</option>
+                                            </select>
+                                        </div><br>
+                                    </div><br>
+                                    </div>
+                                    <div style=" width: 40%;">
+                                    <div class="col-lg-6" style=" width: 100%;">
+                                        <div class="form-group">
+                                            <label for="lastname">ApplicantIncome:</label><br>
+                                            <input type="number" class="form-control" id="ApplicantIncome" name="ApplicantIncome" placeholder="ApplicantIncome" required>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">coapp_income:</label><br>
+                                            <input type="number" class="form-control" id="coapp_income" name="coapp_income" placeholder="coapp_income" required>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">loan_amount:</label><br>
+                                            <input type="number" class="form-control" id="loan_amount" name="loan_amount" placeholder="loan_amount" required>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">term:</label><br>
+                                            <!-- <input type="number" class="form-control" id="term" name="term" placeholder="term" required> -->
+                                            <select class="form-select form-select" id="term" name="term">
+                                                <option selected>Select</option>
+                                                <option value="1">120</option>
+                                                <option value="2">240</option>
+                                                <option value="2">360</option>
+                                            </select>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">credit_history:</label><br>
+                                            <!-- <input type="number" class="form-control" id="credit_history" name="credit_history" placeholder="credit_history" required> -->
+                                            <select class="form-select form-select" id="credit_history" name="credit_history">
+                                                <option selected>Select</option>
+                                                <option value="1">1</option>
+                                                <option value="2">0</option>
+                                            </select>
+                                        </div><br>
+                                        <div class="form-group">
+                                            <label for="lastname">property_area:</label><br>
+                                            <!-- <input type="text" class="form-control" id="property_area" name="property_area" placeholder="property_area" required> -->
+                                            <select class="form-select form-select" id="property_area" name="property_area">
+                                                <option selected>Select</option>
+                                                <option value="1">Rural</option>
+                                                <option value="2">Urban</option>
+                                                <option value="3">Semiurban</option>
+                                            </select>
+                                        </div><br>
+                                    </div>
+                                    </div> 
+                                </div>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn btn-lg btn-primary" >Predict</button>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        
+
+    </div>
+
+</body>
+</html>
