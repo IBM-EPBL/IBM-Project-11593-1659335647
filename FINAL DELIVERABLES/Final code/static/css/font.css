@@ -1,0 +1,145 @@
+body{
+    background-color:#393E46;
+}
+
+.header{
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    
+}
+.first{
+   margin-top: -80px;
+}
+
+.border{
+    padding: 80px 50px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #59C1BD;
+    border-radius: 50px;
+    background-color: #A0E4CB;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color:orange     ;
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.textbox{
+    padding: 10px 40px;
+    background-color: white;
+    text-color:black;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 200px;
+}
+     
+::placeholder {
+    color: black;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.word{
+    color:black;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+.bottom{
+    color: #236B8E;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bottom:hover{
+    color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background:#59C1BD;
+}
+
+.full-signin{
+   
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 50px;
+    background:#CFF5E7;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.second-layer{
+   padding-top: 10px;
+}
+
+.email, .password{
+  border-radius: 60px;
+  width: 280px;
+  margin-top: 30px;
+  height: 30px;
+  border-color: black;
+  text-align: center;
+  border-style: none;
+  
+}
+.email:focus , .password:focus{
+    outline: none;
+}
+.signin{
+    margin-top: 40px;
+    width: 140px;
+    border-radius: 60px;
+    height: 40px;
+    background: orangered;
+    border-color: chocolate;
+   cursor: pointer;
+   font-weight: bolder;
+   border-style: none;
+}
+.signup-link{
+    margin-left: 120px;
+    margin-top: 40px;
+}
+p{
+    margin-left: -180px;
+    margin-bottom: -20px;
+}
+a{
+    text-decoration: none;
+}
+
+.signup-page:hover , .signin-page:hover{
+    
+    color:orangered;
+}
+
+#passerror,
+#errorconfirmpassword,
+#mailerror,
+#emailerror{
+    color: red;
+} */
