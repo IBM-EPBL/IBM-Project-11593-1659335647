@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+
+body{
+        font-family: 'Inter', sans-serif;
+    }
+    .popup{
+    background:#ffff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.pop-content{
+    height: 250px;
+    width: 500px;
+    background:#FF5858;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    
+
+}
+
+.content{
+    font-weight: bold;
+    margin-top: 70px;
+}
+.close{
+    border-radius: 50px;
+    width: 50px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: #ffff;
+    cursor: pointer;
+    box-shadow: 6px 6px 29px --4px rgba(0,0, 0, 0.75);
+   
+
+
+}
+.wrong{
+    border-radius: 50%;
+    width: 80px;
+    position:absolute;
+    left: 120px;
+    margin-top: 20px;
+    
+
+}
+
+
+</style>
+<body>
+        <div class="popup"> 
+            <div class="pop-content">
+                <h1>Loan Prediction</h1>
+                <img src="../static/pic/wrong.jpg" alt="wrong" class="wrong">
+                    <h3 class="content">Not Approved</h3>    
+            </div>
+           </div>
+
+    
+</body>
+</html>
+
+
